@@ -1,0 +1,147 @@
+# Hey, thanks for using my theme. If you like this theme,checkout my repo (https://gitlab.com/avron/gruvhugo"
+# and drop a star while you're at it. ;)
+baseurl = "https://raiolartw.github.io/"
+title = "Antonio Raiola"
+languageCode = "en-us"
+paginate = "10" # Number of posts per page
+#disqusShortname = "" # Enable comments by entering your Disqus shortname
+#googleAnalytics = "" # Enable Google Analytics by entering your tracking id
+#-------------------------------------------------------------------------------
+# DEFAULT SETTINGS
+#-------------------------------------------------------------------------------
+
+# Publish directory
+publishDir = "docs"
+
+# Default Theme
+theme= "gruvhugo"
+
+
+# Default Post Extension
+defaultExtension= "html"
+
+# Default metadata format for newly created frontmatter using
+# hugo new command. "toml", "yaml", or "json"
+metaDataFormat= "yaml"
+
+[params]
+math="true"
+mathMethod = "html"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+
+[params.main]
+  enabled = true
+  enableKatex = true
+  metaKeywords = "Antonio Raiola, UC3M, Carlos III, Econometrics"
+  headerTitle = "Antonio Raiola"
+  name = "Antonio Raiola"
+  img = "img/author.jpg"
+  img_title = "Thanks to Christina @ wocintechchat.com for this photo."
+  icon = "img/logo.png"
+  quote = "Nil sapiaentiae odiosius acumine nimio.  - Seneca"
+  description = """ I am a Phd student in Econometrics at University Carlos III of Madrid. My research interests are:
+"""
+
+  licenseUrl = ""
+
+ # Social icons
+   
+  [[params.social]]
+    name = "email"
+    url  = "mailto:araiola@eco.uc3m.es"
+
+  [[params.social]]
+    name = "twitter"
+    url  = "https://twitter.com/antonio45577263"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/antonio-raiola-4b4a66151/"
+
+[params.style]
+  # add path to custom CSS files here
+  custom_css = ["css/style.css"]
+  # add path to custom SCSS files here
+  custom_scss = []
+
+[menu]
+  [[menu.main]]
+    identifier = "CV"
+    name       = "CV"
+    url        = "cv.pdf"
+
+  [[menu.main]]
+    identifier = "research"
+    name       = "Research"
+    url        = "research/"
+
+  [[menu.main]]
+    identifier = "teaching"
+    name       = "Teaching"
+    url        = "teaching/"
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.asciidocExt]
+    backend = "html5"
+    docType = "article"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = false
+    verbose = true
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

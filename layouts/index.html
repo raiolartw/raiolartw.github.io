@@ -1,0 +1,22 @@
+{{define "main"}}
+<div class="intro" style="align-items: center">
+  {{if .Site.Params.main.enabled }}
+  <img class="image" src='{{ .Site.Params.main.img | absURL }}' 
+	title="{{	.Site.Params.main.img_title }}" width="200px" 
+	alt="Author's picture or avatar or logo"/>
+  <ul>
+    <li class="intro-quote">{{ .Site.Params.main.quote }}</li>
+  </ul>
+  {{end}}
+  <div class="description">
+    <strong>{{ .Site.Params.main.description | markdownify | safeHTML }}
+<ul class="research-interests">
+  <li>Specification Testing </li>
+  <li>Counterfactual Analysis</li>
+  <li>Empirical Processes</li>
+  <li>Poverty Analysis</li>	
+  </ul>
+</strong>
+  </div>
+{{ partial "menu.html" . }}
+{{end}}

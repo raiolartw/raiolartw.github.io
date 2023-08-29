@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Research on Antonio Raiola</title>
+    <link>https://raiolartw.github.io/research/</link>
+    <description>Recent content in Research on Antonio Raiola</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://raiolartw.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chi-squared Goodness-of-fit Tests for Conditional Moment Restrictions</title>
+      <link>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</guid>
+      <description>We propose testing conditional moment restrictions (CMRs) using Chi-squared ($\chi^2$) testing procedures. After partitioning the data into cells, $\chi^2$ tests assess whether the discrepancy between the observed means of a generalized residual with the expected vectors of zeroes, under the null, within each cell arose by chance. This is equivalent to test regression specifications by comparing the average response variable with the expected mean under the null within each cell. In contrast to existing omnibus procedures, $\chi^2$ tests offer straightforward implementation and exhibit a standard limit null distribution, ensuring accurate size.</description>
+    </item>
+    
+    <item>
+      <title>Counterfactual Analysis Based on Grouped Data: Application to Poverty and Material Deprivation</title>
+      <link>https://raiolartw.github.io/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raiolartw.github.io/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</guid>
+      <description>We propose to estimate the counterfactual decomposition of distributional statistics using aggregated data. The counterfactual estimation is a two-step procedure: first, we aggregate the data; then, we evaluate a mean (or a regression) in each group and re-weight them for the groups&amp;rsquo; composition of a reference population. Our approach allows for a path-independent detailed decomposition, highlighting the contributions of each group and each characteristic. We propose using a data-driven method to form the groups.</description>
+    </item>
+    
+    <item>
+      <title>On Nontrivial Power of Panel Slope Homogeneity Tests in the Presence of Grouped Patterns </title>
+      <link>https://raiolartw.github.io/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raiolartw.github.io/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</guid>
+      <description>While the literature on grouped patterns in panel data analysis has received significant attention, little to no results are available on pretesting grouped patterns. In this paper, we show that available tools for testing slope homogeneity in panels can be used for this purpose. We provide local power analysis and highlight important limitations of the available testing frameworks. A short Monte Carlo study supports our theoretical findings.</description>
+    </item>
+    
+  </channel>
+</rss>

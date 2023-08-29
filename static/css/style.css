@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.description {
+  margin-top: 5px; /* Adjust the top margin as needed */
+  line-height: 1; /* Adjust the line-height value for interline spacing */
+  white-space: pre-line;
+}
+
+.research-interests {
+  margin-top: 10px; /* Adjust the margin as needed */
+}
