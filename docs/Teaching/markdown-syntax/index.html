@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang=""><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    
+    <title>Markdown Syntax Guide | Antonio Raiola</title>
+    <meta name="description" content="Markdown Syntax Guide">
+    <meta property="og:site_name" content="Markdown Syntax Guide" />
+    <meta property="og:title" content="Antonio Raiola" />
+    <meta property="og:description" content="This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
+" />
+    <meta property="og:image" content="https://raiolartw.github.io/img/author.jpg" />
+    <meta name="keywords"
+          content="" />
+    
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
+        integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
+          crossorigin="anonymous">
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
+        integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
+        crossorigin="anonymous">
+    </script>
+
+    
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
+        integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
+        onload="renderMathInElement(document.body);">
+    </script>
+    
+    <meta name="keywords" content="Antonio Raiola, UC3M, Carlos III, Econometrics">
+    <link rel="icon" type="image/svg" href='https://raiolartw.github.io/img/logo.png' />
+    <meta name="author" content='Antonio Raiola'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.117.0">
+    
+    <link rel="stylesheet" href="https://raiolartw.github.io/sass/main.min.a669fc379ca0ba4d389af69be2682407e7bca16d368f2e7ad5b83c0cd80029b3.css" type="text/css" media="screen">
+
+    <link rel="stylesheet" href="https://raiolartw.github.io/css/style.css">
+
+    
+
+    
+    </head>
+<body>
+      <div class="line" id="scrollIndicator"></div>
+      <div class="main"><div class="title">
+  <div class="name">
+    <h2><a href="https://raiolartw.github.io/"
+	   style="text-decoration: none; color: inherit;">Antonio Raiola</a></h2>
+  </div>
+  <div class="color-scheme">
+
+      <div class="ball"></div>
+    </label>
+  </div>
+</div>
+<script>
+  const themeSetter = (theme) => {
+      document.body.classList.toggle('dark')
+      localStorage.setItem('theme', theme)
+      blockSwitcher()
+  }
+
+  const blockSwitcher = () => [...document.getElementsByTagName("BLOCKQUOTE")]
+	.forEach(b => b.classList.toggle('dark'))
+
+  const styleSwapper = () => {
+      document.body.classList.add('back-transition')
+      if (localStorage.getItem('theme') === 'dark') themeSetter('light')
+      else if (localStorage.getItem('theme') === 'light') themeSetter('dark')
+  }
+
+  if (localStorage.getItem('theme') === 'dark'){
+      themeSetter('dark')
+      document.addEventListener("DOMContentLoaded", blockSwitcher)
+  }
+ else localStorage.setItem('theme', 'light')
+
+  document.getElementById('chk').addEventListener('change',styleSwapper);
+
+  window.addEventListener("scroll", () => {
+      let height = document.documentElement.scrollHeight
+          - document.documentElement.clientHeight;
+      if(height >= 500){
+	  let winScroll = document.body.scrollTop
+              || document.documentElement.scrollTop;
+	  let scrolled = (winScroll / height) * 100;
+	  document.getElementById("scrollIndicator").style.width = scrolled + "%";
+      }
+  });
+</script>
+
+<section class="intro">
+  
+
+
+
+  
+  <div class="research-header">
+    <a class="go-back" href="https://raiolartw.github.io/"><svg aria-hidden="true" focusable="false" data-prefix="far" class="back-icon" data-icon="caret-square-left" height="25px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M272 157.1v197.8c0 10.7-13 16.1-20.5 8.5l-98.3-98.9c-4.7-4.7-4.7-12.2 0-16.9l98.3-98.9c7.5-7.7 20.5-2.3 20.5 8.4zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-48 346V86c0-3.3-2.7-6-6-6H54c-3.3 0-6 2.7-6 6v340c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"></path></svg> </a>
+    <h2 class="research-title">Markdown Syntax Guide</h2>
+  </div>
+  
+  <p> Main professors:  <a href="">Hugo Authors.</a>
+    
+  </p>
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css" integrity="sha384-GvrOXuhMATgEsSwCs4smul74iXGOixntILdUW9XmUC6+HX0sLNAK3q71HotJqlAn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js" integrity="sha384-cpW21h6RZv/phavutF+AuVYrr+dA8xD9zs6FwLpaCct6O9ctzYFfFr4dgmgccOTx" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+          
+          
+          delimiters: [
+              {left: '$$', right: '$$', display: true},
+              {left: '$', right: '$', display: false},
+              {left: '\\(', right: '\\)', display: false},
+              {left: '\\[', right: '\\]', display: true}
+          ],
+          
+          throwOnError : false
+        });
+    });
+</script>
+  <div class="content" style="font-size: 17px;"> 
+    <p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
+<h2 id="headings">Headings</h2>
+<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
+<h1 id="h1">H1</h1>
+<h2 id="h2">H2</h2>
+<h3 id="h3">H3</h3>
+<h4 id="h4">H4</h4>
+<h5 id="h5">H5</h5>
+<h6 id="h6">H6</h6>
+<h2 id="paragraph">Paragraph</h2>
+<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
+<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
+<h2 id="blockquotes">Blockquotes</h2>
+<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
+<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
+<blockquote>
+<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
+<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
+</blockquote>
+<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
+<blockquote>
+<p>Don&rsquo;t communicate by sharing memory, share memory by communicating.<!-- raw HTML omitted -->
+— <!-- raw HTML omitted -->Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup><!-- raw HTML omitted --></p>
+</blockquote>
+<h2 id="tables">Tables</h2>
+<p>Tables aren&rsquo;t part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bob</td>
+<td>27</td>
+</tr>
+<tr>
+<td>Alice</td>
+<td>23</td>
+</tr>
+</tbody>
+</table>
+<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
+<table>
+<thead>
+<tr>
+<th>Italics</th>
+<th>Bold</th>
+<th>Code</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>italics</em></td>
+<td><strong>bold</strong></td>
+<td><code>code</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="code-blocks">Code Blocks</h2>
+<h4 id="code-block-with-backticks">Code block with backticks</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;
+</span></span></code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
+<pre><code>&lt;!doctype html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+  &lt;meta charset=&quot;utf-8&quot;&gt;
+  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+  &lt;p&gt;Test&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo&rsquo;s internal highlight shortcode</h4>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span><span style="color:#75715e">&lt;!doctype html&gt;</span>
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">html</span> <span style="color:#a6e22e">lang</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;en&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">meta</span> <span style="color:#a6e22e">charset</span><span style="color:#f92672">=</span><span style="color:#e6db74">&#34;utf-8&#34;</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">title</span>&gt;Example HTML5 Document&lt;/<span style="color:#f92672">title</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">head</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>  &lt;<span style="color:#f92672">p</span>&gt;Test&lt;/<span style="color:#f92672">p</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">body</span>&gt;
+</span></span><span style="display:flex;"><span>&lt;/<span style="color:#f92672">html</span>&gt;</span></span></code></pre></div>
+<h2 id="list-types">List Types</h2>
+<h4 id="ordered-list">Ordered List</h4>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h4 id="unordered-list">Unordered List</h4>
+<ul>
+<li>List item</li>
+<li>Another item</li>
+<li>And another item</li>
+</ul>
+<h4 id="nested-list">Nested list</h4>
+<ul>
+<li>Fruit
+<ul>
+<li>Apple</li>
+<li>Orange</li>
+<li>Banana</li>
+</ul>
+</li>
+<li>Dairy
+<ul>
+<li>Milk</li>
+<li>Cheese</li>
+</ul>
+</li>
+</ul>
+<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
+<p><!-- raw HTML omitted -->GIF<!-- raw HTML omitted --> is a bitmap image format.</p>
+<p>H<!-- raw HTML omitted -->2<!-- raw HTML omitted -->O</p>
+<p>X<!-- raw HTML omitted -->n<!-- raw HTML omitted --> + Y<!-- raw HTML omitted -->n<!-- raw HTML omitted --> = Z<!-- raw HTML omitted -->n<!-- raw HTML omitted --></p>
+<p>Press <!-- raw HTML omitted --><!-- raw HTML omitted -->CTRL<!-- raw HTML omitted -->+<!-- raw HTML omitted -->ALT<!-- raw HTML omitted -->+<!-- raw HTML omitted -->Delete<!-- raw HTML omitted --><!-- raw HTML omitted --> to end the session.</p>
+<p>Most <!-- raw HTML omitted -->salamanders<!-- raw HTML omitted --> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>The above quote is excerpted from Rob Pike&rsquo;s <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015.&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+  </div>
+  
+
+</section>
+<footer id="footer">
+    <strong></strong>
+    <div class="social">
+        &nbsp;
+<a href="mailto:araiola@eco.uc3m.es" target="_blank" rel="me" title="Email" referrerpolicy="no-referrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+	stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	<path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+	<polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+</a>
+&nbsp;&nbsp;
+<a href="https://twitter.com/antonio45577263" target="_blank" rel="me" title="Twitter" referrerpolicy="no-referrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+	stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	<path
+		d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+	</path>
+</svg>
+</a>
+&nbsp;&nbsp;
+<a href="https://www.linkedin.com/in/antonio-raiola-4b4a66151/" target="_blank" rel="me" title="Linkedin" referrerpolicy="no-referrer">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+	stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+	<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+	<rect x="2" y="9" width="4" height="12"></rect>
+	<circle cx="4" cy="4" r="2"></circle>
+</svg>
+</a>
+&nbsp;
+    </div><strong></strong>
+    <p style="color:grey;"></p>
+</footer>
+</div>
+    </body>
+</html>
