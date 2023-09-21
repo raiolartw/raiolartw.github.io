@@ -1,7 +1,6 @@
-
 +++
-author = "Miguel A. Delgado"
-authorUrl = "https://economia.uc3m.es/personal/miguel-angel-delgado/"
+### author = "Miguel A. Delgado"
+### authorUrl = "https://economia.uc3m.es/personal/miguel-angel-delgado/"
 ### working_paper_link= "/CMR.pdf" ###
 title = "Chi-squared Goodness-of-fit Tests for Conditional Moment Restrictions"
 date = "2022-03-05"
