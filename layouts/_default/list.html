@@ -22,13 +22,16 @@
         {{ end }}
             <well class="well">
                 {{ if eq .Section "research" }}
-                <h4><a class="post-item" href="{{ .Permalink }}">{{ .Title }}</a>
+                <h3><a class="post-item" href="{{ .Permalink }}">{{ .Title }}</a>
 		    {{ if .Params.Author }}
-                    with <a class="post-item" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a></h4>
+                    with <a class="post-item" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a></h3>
                 {{ end }}
+            {{ if .Params.working_paper_link }}
+              <a href="{{ .Params.working_paper_link }}" target="_blank"> (PDF)</a>
+            {{ end }}
 		{{ end }}
 		{{ if eq .Section "teaching" }}
-		<h4><a class="post-item">{{ .Title }} ({{ .Params.year}}), </a>
+		<h3><a class="post-item">{{ .Title }} ({{ .Params.year}}), </a>
 		{{ if .Params.course }}
        		{{ .Params.course}}.
              	{{ end }}
