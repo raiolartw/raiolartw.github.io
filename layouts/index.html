@@ -6,10 +6,9 @@
     <li class="intro-quote">{{ .Site.Params.main.quote }}</li>
   </ul>
   {{ end }}
-  <div class="description" style="font-size: 22px;"> <!-- Adjust the font size here -->
-    <strong>{{ .Site.Params.main.description | markdownify | safeHTML }}
-    </strong>
-  </div>
-  {{ partial "menu.html" . }}
+  <div class="description" style="font-size: 22px; font-weight: 500; font-family: 'EB Garamond', sans-serif;">
+    {{ .Site.Params.main.description | markdownify | safeHTML }}
+    
+  </div>  {{ partial "menu.html" . }}
 </div>
 {{ end }}

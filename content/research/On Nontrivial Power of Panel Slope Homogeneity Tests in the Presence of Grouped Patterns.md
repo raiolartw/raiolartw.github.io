@@ -1,7 +1,7 @@
 +++
 author = "Nazarii Salish"
 authorUrl = "https://sites.google.com/site/nazariisalish/home"
-title = "On Nontrivial Power of Panel Slope Homogeneity Tests in the Presence of Grouped Patterns "
+title = "On Nontrivial Power of Panel Slope Homogeneity Tests in the Presence of Grouped Patterns"
 date = "2022-03-05"
 description = ""
 tags = [
