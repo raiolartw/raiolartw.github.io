@@ -44,9 +44,8 @@ mathMethod = "html"
   img_title = "Antonio Raiola"
   icon = "img/logo.png"
   quote = "Nil sapiaentiae odiosius acumine nimio.  - Seneca"
-  description = """ Welcome to my website! I am a Phd student in Econometrics at University Carlos III of Madrid (Spain).
-  My research primarily revolves around Specification Testing and Counterfactual Analysis, with a specific focus on their application to Poverty Analysis and Labor Economics.  
-  
+  description = """ Welcome to my website! I am a Phd candidate in Economics at University Carlos III of Madrid (Spain). 
+  I specialize in the fields of Econometric Theory and Applied Econometrics, specifically focusing on Specification Testing and Counterfactual Analysis, with a strong emphasis on their practical application in Poverty Analysis and Labor Economics.
   """
 
   licenseUrl = ""
