@@ -12,26 +12,28 @@
 
 <!-- Loop through posts -->
 {{ range .Pages }}
-    <div class="post-item">
+    <div class="post-item" style="font-size: 36px; font-weight: 600; font-family: 'EB Garamond', sans-serif;">
         <!-- Check if current post's category is different from previous post's category -->
         {{ if ne .Params.category $prevCategory }}
             <!-- Display post category in header -->
-            <h1>{{ .Params.category }}</h1>
+            {{ .Params.category }}
             <!-- Update previous category to current post's category -->
             {{ $prevCategory = .Params.category }}
         {{ end }}
             <well class="well">
                 {{ if eq .Section "research" }}
-                <h3><a class="post-item" href="{{ .Permalink }}">{{ .Title }}</a>
-		    {{ if .Params.Author }}
-                    with <a class="post-item" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a></h3>
+                <h3 style="font-size: 24px; font-weight: 500; font-family: 'EB Garamond', sans-serif;">{{ .Title}}, 
+                {{ if .Params.Author }}
+                with <a class="post-item" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a>
                 {{ end }}
-            {{ if .Params.working_paper_link }}
-              <a href="{{ .Params.working_paper_link }}" target="_blank"> (PDF)</a>
+                <a class="post-item" href="{{ .Permalink }}">(abstract)</a>
+                {{ if .Params.working_paper_link }}
+                <a href="{{ .Params.working_paper_link }}" target="_blank"> (PDF)</a>
             {{ end }}
+            </h3>
 		{{ end }}
 		{{ if eq .Section "teaching" }}
-		<h3><a class="post-item">{{ .Title }} ({{ .Params.year}}), </a>
+		<h3 style="font-size: 24px; font-weight: 500; font-family: 'EB Garamond', sans-serif;"><a class="post-item">{{ .Title }} ({{ .Params.year}}), </a>
 		{{ if .Params.course }}
        		{{ .Params.course}}.
              	{{ end }}
