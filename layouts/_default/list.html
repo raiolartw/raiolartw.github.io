@@ -24,11 +24,11 @@
                 {{ if eq .Section "research" }}
                 <h3 style="font-size: 24px; font-weight: 500; font-family: 'EB Garamond', sans-serif;">{{ .Title}}, 
                 {{ if .Params.Author }}
-                with <a class="post-item" href="{{ .Params.AuthorUrl }}">{{ .Params.Author }}</a>
+                with <a class="post-item" href="{{ .Params.AuthorUrl }}" style="text-decoration: none;">{{ .Params.Author }}</a>
                 {{ end }}
-                <a class="post-item" href="{{ .Permalink }}">(abstract)</a>
+                <a class="post-item" href="{{ .Permalink }}" style="text-decoration: none;">(abstract)</a>
                 {{ if .Params.working_paper_link }}
-                <a href="{{ .Params.working_paper_link }}" target="_blank"> (PDF)</a>
+                <a href="{{ .Params.working_paper_link }}" target="_blank" style="text-decoration: none;"> (PDF)</a>
             {{ end }}
             </h3>
 		{{ end }}
@@ -38,7 +38,7 @@
        		{{ .Params.course}}.
              	{{ end }}
 		{{ if .Params.website }}
-       		<a href="{{ .Params.website }}" target="_blank"> Course website</a>
+       		<a href="{{ .Params.website }}" target="_blank" style="text-decoration: none;"> Course website</a>
    	 	{{ end }}
 		{{ end }}
 		{{ partial "math.html" . }}
