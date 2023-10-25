@@ -3,11 +3,12 @@ author = "Minghai Mao"
 authorUrl = "https://lier.lnu.edu.cn/info/1057/1203.htm"
 title = "Counterfactual Analysis Based on Grouped Data: Application to Poverty and Material Deprivation"
 date = "2022-03-05"
+working_paper_link  = "/Counterfactual_grouped.pdf" 
 description = ""
 tags = [
     "",
 ]
-category="Work in progress"
+category="Working Papers"
 +++
 
 We propose to estimate the counterfactual decomposition of distributional statistics
