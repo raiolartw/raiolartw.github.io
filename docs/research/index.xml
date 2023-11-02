@@ -27,10 +27,10 @@
     
     <item>
       <title>Testing Conditional Moment Restrictions: A Partitioning Approach</title>
-      <link>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</link>
+      <link>https://raiolartw.github.io/research/testing-conditional-moment-restrictions/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</guid>
+      <guid>https://raiolartw.github.io/research/testing-conditional-moment-restrictions/</guid>
       <description>This paper proposes $\chi^2$ tests for assessing the specification of regression models or general conditional moment restrictions (CMR). The data is partitioned based on the explanatory variables into several cells, and the $\chi^2$ tests evaluate whether the difference between the observed average of the dependent variable and its expected value under the model specification, within each cell, arises by chance. In contrast to existing omnibus procedures, $\chi^2$ tests are asymptotically pivotal and fairly insensitive to the curse of dimensionality.</description>
     </item>
     
