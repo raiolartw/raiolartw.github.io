@@ -11,7 +11,7 @@
 {{ $prevCategory := "" }}
 
 <!-- Loop through posts -->
-{{ range .Pages }}
+{{  range sort .Pages "Params.order" "asc"  }}
     <div class="post-item" style="font-size: 36px; font-weight: 600; font-family: 'EB Garamond', sans-serif;">
         <!-- Check if current post's category is different from previous post's category -->
         {{ if ne .Params.category $prevCategory }}

@@ -8,15 +8,6 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://raiolartw.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Chi-squared Goodness-of-fit Tests for Conditional Moment Restrictions</title>
-      <link>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</link>
-      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</guid>
-      <description>$\chi^2$ tests are proposed for assessing the specification of regression models or general conditional moment restrictions (CMR). The data is partitioned based on the explanatory variables into several cells, and the $\chi^2$ tests evaluate whether the difference between the observed average of the dependent variable and its expected value under the model specification, within each cell, arises by chance. In contrast to existing omnibus procedures, $\chi^2$ tests are pivotal and fairly insensitive to the curse of dimensionality.</description>
-    </item>
-    
-    <item>
       <title>Counterfactual Analysis Based on Grouped Data: Application to Poverty and Material Deprivation</title>
       <link>https://raiolartw.github.io/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
@@ -32,6 +23,15 @@
       
       <guid>https://raiolartw.github.io/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</guid>
       <description>While the literature on grouped patterns in panel data analysis has received significant attention, little to no results are available on pretesting grouped patterns. In this paper, we show that available tools for testing slope homogeneity in panels can be used for this purpose. We provide local power analysis and highlight important limitations of the available testing frameworks. A short Monte Carlo study supports our theoretical findings.</description>
+    </item>
+    
+    <item>
+      <title>Testing Conditional Moment Restrictions: A Partitioning Approach</title>
+      <link>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</link>
+      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://raiolartw.github.io/research/chi-squared-goodness-of-fit-tests-for-conditional-moment-restrictions/</guid>
+      <description>This paper proposes $\chi^2$ tests for assessing the specification of regression models or general conditional moment restrictions (CMR). The data is partitioned based on the explanatory variables into several cells, and the $\chi^2$ tests evaluate whether the difference between the observed average of the dependent variable and its expected value under the model specification, within each cell, arises by chance. In contrast to existing omnibus procedures, $\chi^2$ tests are asymptotically pivotal and fairly insensitive to the curse of dimensionality.</description>
     </item>
     
   </channel>
