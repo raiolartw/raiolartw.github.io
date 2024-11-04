@@ -1,7 +1,7 @@
 +++
 ### author = "Miguel A. Delgado"
 ### authorUrl = "https://economia.uc3m.es/personal/miguel-angel-delgado/"
-working_paper_link  = "/JMP.pdf" 
+working_paper_link  = "/CMR.pdf" 
 title = "Testing Conditional Moment Restrictions: A Partitioning Approach"
 date = "2022-03-05"
 description = ""
