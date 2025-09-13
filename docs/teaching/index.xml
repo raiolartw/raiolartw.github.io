@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on Antonio Raiola</title>
-    <link>http://localhost:1313/teaching/</link>
+    <link>https://raiolartw.github.io/teaching/</link>
     <description>Recent content in Teaching on Antonio Raiola</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/teaching/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raiolartw.github.io/teaching/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Econometric techniques</title>
-      <link>http://localhost:1313/teaching/econometric-techniques/</link>
+      <link>https://raiolartw.github.io/teaching/econometric-techniques/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/econometric-techniques/</guid>
+      <guid>https://raiolartw.github.io/teaching/econometric-techniques/</guid>
       <description></description>
     </item>
     <item>
       <title>Econometrics</title>
-      <link>http://localhost:1313/teaching/econometrics/</link>
+      <link>https://raiolartw.github.io/teaching/econometrics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/econometrics/</guid>
+      <guid>https://raiolartw.github.io/teaching/econometrics/</guid>
       <description></description>
     </item>
     <item>
       <title>Econometrics II</title>
-      <link>http://localhost:1313/teaching/econometricsii/</link>
+      <link>https://raiolartw.github.io/teaching/econometricsii/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/econometricsii/</guid>
+      <guid>https://raiolartw.github.io/teaching/econometricsii/</guid>
       <description></description>
     </item>
     <item>
       <title>Mathematics</title>
-      <link>http://localhost:1313/teaching/mathematics/</link>
+      <link>https://raiolartw.github.io/teaching/mathematics/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/teaching/mathematics/</guid>
+      <guid>https://raiolartw.github.io/teaching/mathematics/</guid>
       <description>&lt;p&gt;The purpose of this preparatory course is to close the gap between the mathematical tools covered in your undergraduate studies and the tools required for the first year of the master&amp;rsquo;s program. The course assumes that you have a background in multivariate calculus, basic linear algebra, as well as a familiarity with basic probability theory and statistics. The course will approach the topics with an economic mindset, providing examples from the courses taught in the first year.&lt;/p&gt;</description>
     </item>
   </channel>

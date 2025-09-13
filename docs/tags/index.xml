@@ -2,17 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Antonio Raiola</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://raiolartw.github.io/tags/</link>
     <description>Recent content in Tags on Antonio Raiola</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://raiolartw.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Index</title>
-      <link>http://localhost:1313/tags/index/</link>
-      <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/index/</guid>
+      <link>https://raiolartw.github.io/tags/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://raiolartw.github.io/tags/index/</guid>
       <description></description>
     </item>
   </channel>

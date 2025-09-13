@@ -33,3 +33,15 @@ body {
 .initial {
   font-weight: bold;
 }
+
+
+/* ✅ Force remove dotted underline only for contact links */
+.contact-content a {
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+/* Optional: if you want normal underline on hover */
+.contact-content a:hover {
+  text-decoration: underline !important;
+}
