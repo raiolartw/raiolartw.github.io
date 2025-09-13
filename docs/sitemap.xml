@@ -2,45 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/index/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/research/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/research/testing-conditional-moment-restrictions/</loc>
-    <lastmod>2022-03-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://raiolartw.github.io/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://raiolartw.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://raiolartw.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://raiolartw.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/econometric-techniques/</loc>
+    <loc>https://raiolartw.github.io/contact/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/econometrics/</loc>
+    <loc>https://raiolartw.github.io/teaching/econometric-techniques/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/econometricsii/</loc>
+    <loc>https://raiolartw.github.io/teaching/econometrics/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/mathematics/</loc>
+    <loc>https://raiolartw.github.io/teaching/econometricsii/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://raiolartw.github.io/tags/index/</loc>
   </url><url>
-    <loc>http://localhost:1313/teaching/</loc>
+    <loc>https://raiolartw.github.io/teaching/mathematics/</loc>
+  </url><url>
+    <loc>https://raiolartw.github.io/research/</loc>
+  </url><url>
+    <loc>https://raiolartw.github.io/series/</loc>
+  </url><url>
+    <loc>https://raiolartw.github.io/tags/</loc>
+  </url><url>
+    <loc>https://raiolartw.github.io/teaching/</loc>
   </url>
 </urlset>
