@@ -54,7 +54,7 @@ body.dark {
     border-right: 0px;
     border-top: 0px;
     border-left: 0px;
-    border-bottom: 2px solid;
+    border-bottom: none;
     border-style: dotted;
     text-decoration: none;
     color: $primary-accent-color;
@@ -115,7 +115,7 @@ p, li {
 .tags {
     display: flex;
     flex-wrap: wrap;
-    boder-bottom: 2px dotted;
+    boder-bottom: none;
     align-items: center;
     h5 {
         margin: 6px 5px 6px 0px;
