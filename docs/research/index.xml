@@ -2,37 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research on Antonio Raiola</title>
-    <link>https://raiolartw.github.io/research/</link>
+    <link>http://localhost:1313/research/</link>
     <description>Recent content in Research on Antonio Raiola</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://raiolartw.github.io/research/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 05 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/research/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Counterfactual Analysis Based on Grouped Data: Application to Poverty and Material Deprivation</title>
-      <link>https://raiolartw.github.io/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</link>
+      <link>http://localhost:1313/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://raiolartw.github.io/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</guid>
-      <description>We propose inferences on the counterfactual mean: the mean of some population outcome, assuming that the related characteristics are distributed according to the distribution of another population. The purpose is to compare the mean of an outcome in two populations, holding constant other related factors that may distort the comparison. Once the data is partitioned into a number of classes, the counterfactual mean is identified as the weighted sum of the outcome conditional expectation in one population, given that the related characteristics take values in each class, with weights the probability that the characteristics take values in each class in the other population.</description>
+      <guid>http://localhost:1313/research/counterfactual-analysis-based-on-grouped-data-application-to-poverty-and-material-deprivation/</guid>
+      <description>&lt;p&gt;We propose inferences on the counterfactual mean: the mean of some population outcome, assuming that the related characteristics are distributed according to the distribution of another population. The purpose is to compare the mean of an outcome in two populations, holding constant other related factors that may distort the comparison. Once the data is partitioned into a number of classes, the counterfactual mean is identified as the weighted sum of the outcome conditional expectation in one population, given that the related characteristics take values in each class, with weights the probability that the characteristics take values in each class in the other population. The relative estimator follows by the analogy principle. The procedure can be applied using any kind of data, without specifying a model for the conditional expectation. The asymptotic properties of the proposed estimator are unaffected when the partitions are data-dependent. The main application of the procedure consists of decomposing the difference between sample means into a composition term, assuming that the conditional expectations are identical in each population, and a structural term, assuming that the distribution of the related characteristics in the two populations is identical. The proposal is applied to decompose the effects of the great recession on Spanish poverty indices. The results suggest that changes in the population characteristics were responsible for the increase in poverty rates. While labor market disruptions pushed the rates higher, demographic changes and migratory movements had the opposite effect.&#xA;\noindent We propose inferences on the counterfactual mean: the mean of some population outcome, pretending that the related characteristics are distributed according to the distribution of another population. The purpose is to compare the mean of an outcome in two populations, holding constant other related factors that may distort the comparison. Once the data is partitioned into a number of classes, the counterfactual mean outcome is identified as the weighted sum of the outcome conditional expectation in one population, given that the related characteristics take values in each class, with weights the probability that the characteristics take values in each class in the other population. The relative counterfactual mean estimator follows by the analogy principle. The procedure can be applied using data of any kind, without specifying a model for the conditional expectation. The asymptotic properties of the proposed estimator are unaffected when the partitions are data-dependent with classes converging to a fixed limit. The main application of the procedure consists of decomposing the difference between sample means into a composition term, pretending that the conditional expectation functions are identical in each population, and a structural term, pretending that the distribution of the related characteristics in the two populations are identical. The proposed methodology is applied to decompose the effects of the great recession on Spanish poverty indices. The results suggest that differences in the distribution of characteristics over time, resulting from labor market disruptions and demographic changes, were responsible for the increase in poverty rates. While job losses pushed the rates higher, the out-migration of poor foreigners decreased the rates.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>On Nontrivial Power of Panel Slope Homogeneity Tests in the Presence of Grouped Patterns</title>
-      <link>https://raiolartw.github.io/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</link>
+      <link>http://localhost:1313/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://raiolartw.github.io/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</guid>
-      <description>While the literature on grouped patterns in panel data analysis has received significant attention, little to no results are available on pretesting grouped patterns. In this paper, we show that available tools for testing slope homogeneity in panels can be used for this purpose. We provide local power analysis and highlight important limitations of the available testing frameworks. A short Monte Carlo study supports our theoretical findings.</description>
+      <guid>http://localhost:1313/research/on-nontrivial-power-of-panel-slope-homogeneity-tests-in-the-presence-of-grouped-patterns/</guid>
+      <description>&lt;p&gt;While the literature on grouped patterns in panel data analysis has received significant attention, little to no results are available on pretesting grouped patterns. In this paper, we show that available tools for testing slope homogeneity in panels can be used for this purpose. We provide local power analysis and highlight important limitations of the available testing frameworks. A short Monte Carlo study supports our theoretical findings.&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>Testing Conditional Moment Restrictions: A Partitioning Approach</title>
-      <link>https://raiolartw.github.io/research/testing-conditional-moment-restrictions/</link>
+      <link>http://localhost:1313/research/testing-conditional-moment-restrictions/</link>
       <pubDate>Sat, 05 Mar 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://raiolartw.github.io/research/testing-conditional-moment-restrictions/</guid>
-      <description>This paper proposes $\chi^2$-type tests for assessing the specification of regression models or general conditional moment restrictions. The data is partitioned according to the explanatory variables into several cells, and the tests evaluate whether the difference between the observed average of the dependent variable and its expected value under the model specification arises by chance. In contrast to existing omnibus procedures, $\chi^2$ tests are asymptotically pivotal and fairly insensitive to the curse of dimensionality.</description>
+      <guid>http://localhost:1313/research/testing-conditional-moment-restrictions/</guid>
+      <description>&lt;p&gt;This paper proposes $\chi^2$-type tests for assessing the specification of regression models or general conditional moment restrictions. The data is partitioned according to the explanatory variables into several cells, and the tests evaluate whether the difference between the observed average of the dependent variable and its expected value under the model specification arises by chance. In contrast to existing omnibus procedures, $\chi^2$ tests are asymptotically pivotal and fairly insensitive to the curse of dimensionality. The computation is straightforward and does not require bootstrapping or smoothing techniques. Importantly, the asymptotic properties of the test are invariant to sample-dependent partitions, which can be chosen to favor certain alternatives. A Monte Carlo study provides evidence of the good performance of the tests using samples of small or moderate size compared with existing omnibus alternatives, particularly when there are many explanatory variables. An empirical application regarding returns to education of African American students in the US complements the finite sample study.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

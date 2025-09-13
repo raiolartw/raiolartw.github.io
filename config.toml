@@ -3,7 +3,8 @@
 baseurl = "https://raiolartw.github.io/"
 title = "Antonio Raiola"
 languageCode = "en-us"
-paginate = "10" # Number of posts per page
+[pagination]
+  pagerSize = 10
 #disqusShortname = "" # Enable comments by entering your Disqus shortname
 #googleAnalytics = "" # Enable Google Analytics by entering your tracking id
 #-------------------------------------------------------------------------------
@@ -38,30 +39,19 @@ mathMethod = "html"
   enabled = true
   enableKatex = true
   metaKeywords = "Antonio Raiola, UC3M, Carlos III, Econometrics"
-  headerTitle = "Antonio Raiola"
+  headerTitle = "ANTONIO&nbsp;&nbsp;&nbsp;RAIOLA"
   name = "Antonio Raiola"
   img = "img/author.jpg"
   img_title = "Antonio Raiola"
   icon = "img/logo.png"
   quote = "Nil sapiaentiae odiosius acumine nimio.  - Seneca"
-  description = """ Welcome to my website! I am a Phd candidate in Economics at <a href='https://www.uc3m.es/home' target='_blank'>University Carlos III of Madrid</a> (Spain), with a primary research interest in Econometric Theory and Applied Econometrics. I am on the 2023-2024 job market. You can find my job market paper in the Research section.
+  description = """ I'm an Assistant Professor at the Department of Economics and Finance, University of Rome Tor Vergata. My research field is Econometrics. I graduated from University Carlos III of Madrid under the supervision of <a href="https://economics.uc3m.es/personal/miguel-angel-delgado/" target="_blank" style="text-decoration: none;">Miguel Angel Delgado </a>
   """
 
   licenseUrl = ""
 
  # Social icons
-   
-  [[params.social]]
-    name = "email"
-    url  = "mailto:araiola@eco.uc3m.es"
 
-  [[params.social]]
-    name = "twitter"
-    url  = "https://twitter.com/antonio45577263"
-
-  [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/in/antonio-raiola-4b4a66151/"
 
 [params.style]
   # add path to custom CSS files here
@@ -81,9 +71,9 @@ mathMethod = "html"
     url        = "research/"
 
   [[menu.main]]
-    identifier = "teaching"
-    name       = "Teaching"
-    url        = "teaching/"
+    identifier = "contact"
+    name       = "Contact"
+    url        = "contact/"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -129,7 +119,7 @@ mathMethod = "html"
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false
   [markup.highlight]
     codeFences = true

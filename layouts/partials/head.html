@@ -19,28 +19,25 @@
     <meta name="keywords"
           content="{{ with .Params.Keywords }}{{ else }}{{ $.Site.Params.Keywords }}{{ end }}" />
     {{end}}
+
     {{ if .Site.Params.main.enableKatex }}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css"
         integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI"
           crossorigin="anonymous">
-
-    <!-- The loading of KaTeX is deferred to speed up page rendering -->
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js"
         integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t"
-        crossorigin="anonymous">
-    </script>
-
-    <!-- To automatically render math in text elements, include the auto-render extension: -->
+        crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js"
         integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"
-        onload="renderMathInElement(document.body);">
-    </script>
+        onload="renderMathInElement(document.body);"></script>
     {{end}}
+
     <meta name="keywords" content="{{ .Site.Params.main.metaKeywords }}">
     <link rel="icon" type="image/svg" href='{{ .Site.Params.main.icon | absURL }}' />
     <meta name="author" content='{{ .Site.Params.main.name }}'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {{hugo.Generator}}
+
     {{ $style := resources.Get "/sass/main.scss" | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $style.Permalink }}" type="text/css" media="screen">
 
@@ -52,6 +49,9 @@
     {{ $scss_file := resources.Get . | toCSS | minify | fingerprint }}
     <link rel="stylesheet" href="{{ $scss_file.Permalink }}">
     {{- end }}
+
+    <!-- ✅ Always load your custom overrides last -->
+    <link rel="stylesheet" href="{{ "css/style.css" | relURL }}">
 
     <!-- RSS -->
     {{ with .OutputFormats.Get "rss" -}}
